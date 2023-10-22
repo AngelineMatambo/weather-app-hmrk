@@ -18,11 +18,15 @@ h1 {
 li {
     list-style: none;
         margin: 0;
-        padding: 0;       
+        padding: 0; 
         color: rgb(135 ,135 ,135);     
         font-size: 18px;
         font-weight: 100;   
         line-height: 22px;
+    }
+    
+    li:first-letter {
+        text-transform: capitalize;    
  }
 
  .weather-app-wrapper {
