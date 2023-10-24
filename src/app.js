@@ -21,7 +21,14 @@ function formatDate(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
-function displayTemperature(response) {
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  
+forecastElement.innerHTML = "Forecast";
+ 
+
+
+function displayTemperature(response) { 
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
   let descriptionElement = document.querySelector("#description");
@@ -29,9 +36,8 @@ function displayTemperature(response) {
   let windElement = document.querySelector("#wind");
   let dateElement = document.querySelector("#date");
   let iconElement = document.querySelector("#icon");
-
+  
   celsiusTemperature = response.data.main.temp;
-
 
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
   cityElement.innerHTML = response.data.name;
