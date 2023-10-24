@@ -1,76 +1,100 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
 h1 {
-    color: royalblue;
-    font-size: 25px;
-    font-weight: 100;
-    line-height: 32px;
- }
-    
-    ul {
-    margin: 0;
-    padding: 0;
+  color: royalblue;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 32px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    list-style: none;
-        margin: 0;
-        padding: 0; 
-        color: rgb(135 ,135 ,135);     
-        font-size: 18px;
-        font-weight: 100;   
-        line-height: 22px;
-    }
-    
-    li:first-letter {
-        text-transform: capitalize;    
- }
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(135, 135, 135);
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 22px;
+}
 
- .weather-app-wrapper {
-     max-width: 650px;
-     margin: 35px auto;
- }
-    
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
 .weather-app {
-        padding: 25px;
-        border: 2px solid #6f6f6f;
-        border-radius: 15px;
- }
+  padding: 25px;
+  border: 2px solid #6f6f6f;
+  border-radius: 15px;
+}
 
- .overview {
-    margin-bottom: 22px;
- }
+.overview {
+  margin-bottom: 22px;
+}
 
- .weather-temperature img {
-    margin-right: 7px;
-    height: 65px;
-    width: 65px;
- }
-  
- .weather-temperature strong {
-  
-   color: rgb(red, green, blue); 
-   font-size: 65px;
-   font-weight: 500;   
- }
+.weather-temperature img {
+  margin-right: 7px;
+  height: 65px;
+  width: 65px;
+}
 
- .weather-temperature .units {
-    position: relative;
-    font-size: 17px;
-    top: -33px;
- }
+.weather-temperature strong {
+  color: rgb(red, green, blue);
+  font-size: 65px;
+  font-weight: 500;
+}
 
- .weather-temperature .active {
-    color: rgb(33, 33, 33);
-    cursor: default;
- }
+.weather-temperature .units {
+  position: relative;
+  font-size: 17px;
+  top: -33px;
+}
 
- .weather-temperature active:hover {
-    text-decoration: none;
- }
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.fahrenheit-link {
+  text-decoration: none;
+  color: black;
+}
+
+.celsius-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.weather-forcast {
+  margin-top: 22px;
+  text-align: center;
+  color: #000;
+
+}
+
+.weather-forcast-date {
+  font-size: 16px;
+ opacity: 0.5;
+}
+
+.weather-forcast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forcast-temperatures {
+  font-size: 14px;
+}
 
 
 
