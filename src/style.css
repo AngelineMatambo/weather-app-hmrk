@@ -76,25 +76,6 @@ li:first-letter {
   color: blue;
 }
 
-.weather-forcast {
-  margin-top: 22px;
-  text-align: center;
-  color: #000;
-
-}
-
-.weather-forcast-date {
-  font-size: 16px;
- opacity: 0.5;
-}
-
-.weather-forcast-temperature-min {
-  opacity: 0.5;
-}
-
-.weather-forcast-temperatures {
-  font-size: 14px;
-}
 
 
 

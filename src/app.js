@@ -21,12 +21,6 @@ function formatDate(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
-function displayForecast() {
-  let forecastElement = document.querySelector("#forecast");
-  
-forecastElement.innerHTML = "Forecast";
- 
-
 
 function displayTemperature(response) { 
   let temperatureElement = document.querySelector("#temperature");
@@ -36,6 +30,8 @@ function displayTemperature(response) {
   let windElement = document.querySelector("#wind");
   let dateElement = document.querySelector("#date");
   let iconElement = document.querySelector("#icon");
+
+
   
   celsiusTemperature = response.data.main.temp;
 
@@ -95,3 +91,4 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsciusTemperature);
 
 search("Johannesburg");
+
